@@ -1,0 +1,37 @@
+<idea-plugin>
+    <id>com.scottmcmullan.nord-islands-theme</id>
+    <version>1.0.0</version>
+    <name>Nord Islands</name>
+    <category>UI</category>
+    <vendor url="https://github.com/scottmcmullan">Scott McMullan</vendor>
+
+    <idea-version since-build="252.25557"/>
+
+    <description><![CDATA[
+        <h2>Nord Islands</h2>
+        <p>A dark theme for JetBrains IDEs built on the <b>Nord</b> color palette and designed for the modern <b>Islands UI</b>.</p>
+        <ul>
+            <li>Full Nord color palette (Nord 0–15) across all UI components</li>
+            <li>Islands-native: rounded corners, visual separation between tool windows, floating aesthetics</li>
+            <li>Comprehensive editor color scheme with language-specific highlighting for PHP, JavaScript, TypeScript, HTML, CSS, JSON, YAML, and Markdown</li>
+            <li>Carefully tuned selection, hover, and focus states for readability</li>
+            <li>Full terminal ANSI color mapping</li>
+        </ul>
+        <p>Successor to the original <em>Nord</em> JetBrains theme, updated for 2025.2+ with Islands support.</p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <h3>1.0.0</h3>
+        <ul>
+            <li>Initial release with full Islands UI support</li>
+            <li>Complete Nord color palette integration</li>
+            <li>Editor color scheme with language-specific overrides</li>
+        </ul>
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.scottmcmullan.nord-islands-theme" path="/theme/intellijnordislandstheme.theme.json"/>
+    </extensions>
+</idea-plugin>
