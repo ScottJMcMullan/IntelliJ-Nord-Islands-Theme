@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.scottmcmullan"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -22,5 +22,11 @@ sourceSets {
 dependencies {
     intellijPlatform {
         intellijIdeaUltimate("2025.3")
+    }
+}
+
+intellijPlatform {
+    publishing {
+        token = providers.gradleProperty("intellijPlatformPublishingToken")
     }
 }
