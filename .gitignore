@@ -1,2 +1,14 @@
-out
+out/
+build/
 *.jar
+
+.gradle/
+.intellijPlatform/
+gradle/
+gradlew
+gradlew.bat
+
+.idea/
+*.iml
+
+.DS_Store
