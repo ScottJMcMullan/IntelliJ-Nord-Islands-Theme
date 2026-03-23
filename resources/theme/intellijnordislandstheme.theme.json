@@ -2,13 +2,13 @@
   "name": "Nord Islands",
   "dark": true,
   "author": "Scott McMullan",
-  "parentTheme": "Islands Dark",
+  "parentTheme": "ExperimentalDark",
   "editorScheme": "/theme/nord-islands.xml",
   "colors": {
     "background": "#2e3440",
     "backgroundElevated": "#3b4252",
     "backgroundSelected": "#434c5e",
-    "backgroundHover": "#3b4252",
+    "backgroundHover": "#3e4657",
     "backgroundFrame": "#3b4252",
     "foreground": "#d8dee9",
     "foregroundBright": "#eceff4",
@@ -95,14 +95,14 @@
       "Header.background": "background",
       "Header.inactiveBackground": "background",
       "Header.borderColor": "border",
-      "HeaderTab.selectedBackground": "backgroundElevated",
+      "HeaderTab.underlinedTabBackground": "backgroundElevated",
       "HeaderTab.selectedInactiveBackground": "backgroundElevated",
       "HeaderTab.hoverBackground": "backgroundHover",
       "HeaderTab.hoverInactiveBackground": "backgroundHover",
       "HeaderTab.underlineColor": "accent",
       "HeaderTab.underlineHeight": 3,
       "Button.hoverBackground": "backgroundSelected",
-      "Button.selectedBackground": "purple",
+      "Button.selectedBackground": "backgroundSelected",
       "Button.selectedForeground": "foregroundBright",
       "Stripe.background": "backgroundFrame",
       "Stripe.borderColor": "#00000000",
@@ -303,7 +303,6 @@
     },
 
     "MenuBar": {
-      "background": "background",
       "foreground": "foreground",
       "selectionBackground": "backgroundSelected",
       "selectionForeground": "foreground",
@@ -317,7 +316,6 @@
       "selectionBackground": "selection",
       "selectionForeground": "foreground",
       "acceleratorForeground": "foregroundDim",
-      "acceleratorSelectionForeground": "foreground",
       "disabledForeground": "foregroundDim"
     },
 
@@ -325,7 +323,6 @@
       "background": "backgroundFrame",
       "foreground": "foreground",
       "borderColor": "#00000000",
-      "hoverBackground": "backgroundSelected",
       "Widget.hoverBackground": "backgroundSelected"
     },
 
@@ -452,10 +449,8 @@
       "background": "backgroundElevated",
       "foreground": "foreground",
       "selectionBackground": "selection",
-      "selectionForeground": "foreground",
       "selectionInactiveBackground": "selectionInactive",
-      "matchForeground": "accent",
-      "nonFocusedState": "backgroundElevated"
+      "matchForeground": "accent"
     },
 
     "Counter": {
@@ -685,27 +680,14 @@
       "Objects.YellowDark": "#d08770",
       "Objects.BlackText": "#d8dee9",
       "Checkbox.Background.Default": "#3b4252",
-      "Checkbox.Background.Default.Dark": "#3b4252",
       "Checkbox.Background.Selected": "#88c0d0",
-      "Checkbox.Background.Selected.Dark": "#88c0d0",
       "Checkbox.Background.Disabled": "#2e3440",
-      "Checkbox.Background.Disabled.Dark": "#2e3440",
       "Checkbox.Border.Default": "#4c566a",
-      "Checkbox.Border.Default.Dark": "#4c566a",
       "Checkbox.Border.Selected": "#88c0d0",
-      "Checkbox.Border.Selected.Dark": "#88c0d0",
       "Checkbox.Border.Disabled": "#3b4252",
-      "Checkbox.Border.Disabled.Dark": "#3b4252",
-      "Checkbox.Focus.Thin.Default": "#88c0d0",
-      "Checkbox.Focus.Thin.Default.Dark": "#88c0d0",
-      "Checkbox.Focus.Thin.Selected": "#88c0d0",
-      "Checkbox.Focus.Thin.Selected.Dark": "#88c0d0",
       "Checkbox.Focus.Wide": "#88c0d066",
-      "Checkbox.Focus.Wide.Dark": "#88c0d066",
       "Checkbox.Foreground.Disabled": "#616e88",
-      "Checkbox.Foreground.Disabled.Dark": "#616e88",
-      "Checkbox.Foreground.Selected": "#2e3440",
-      "Checkbox.Foreground.Selected.Dark": "#2e3440"
+      "Checkbox.Foreground.Selected": "#2e3440"
     }
   }
 }
