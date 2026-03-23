@@ -56,7 +56,7 @@
       "pressedBackground": "backgroundSelected",
       "acceleratorForeground": "foregroundDim",
       "errorForeground": "red",
-      "warningForeground": "yellow",
+      "warningForeground": "orange",
       "infoForeground": "accent"
     },
 
@@ -395,7 +395,7 @@
       "disabledBorderColor": "border",
       "hoverBorderColor": "borderSubtle",
       "errorFocusColor": "red",
-      "warningFocusColor": "yellow",
+      "warningFocusColor": "orange",
       "infoFocusColor": "accent",
       "iconColor": "foreground",
       "hoverIconColor": "foregroundBright"
@@ -561,7 +561,7 @@
       "errorForeground": "red",
       "infoForeground": "foregroundDim",
       "successForeground": "green",
-      "warningForeground": "yellow"
+      "warningForeground": "orange"
     },
 
     "Group": {
@@ -589,9 +589,9 @@
       "infoBackground": "#88c0d01a",
       "infoForeground": "foreground",
       "infoBorderColor": "accent",
-      "warningBackground": "#ebcb8b1a",
+      "warningBackground": "#d087701a",
       "warningForeground": "foreground",
-      "warningBorderColor": "yellow",
+      "warningBorderColor": "orange",
       "errorBackground": "#bf616a1a",
       "errorForeground": "foreground",
       "errorBorderColor": "red",
@@ -622,7 +622,7 @@
       "errorBackground": "#3d2d33",
       "errorBorderColor": "red",
       "warningBackground": "#3d3533",
-      "warningBorderColor": "yellow"
+      "warningBorderColor": "orange"
     },
 
     "MemoryIndicator": {
