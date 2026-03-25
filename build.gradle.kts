@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.scottmcmullan"
-version = "1.0.2"
+version = "1.0.4"
 
 repositories {
     mavenCentral()
@@ -29,4 +29,9 @@ intellijPlatform {
     publishing {
         token = providers.gradleProperty("intellijPlatformPublishingToken")
     }
+}
+
+val runPhpStorm by intellijPlatformTesting.runIde.registering {
+    type = org.jetbrains.intellij.platform.gradle.IntelliJPlatformType.PhpStorm
+    version = "2025.3"
 }

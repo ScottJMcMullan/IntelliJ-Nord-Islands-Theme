@@ -165,7 +165,7 @@
       "inactiveUnderlinedTabBackground": "background",
       "inactiveUnderlineColor": "foregroundDim",
       "hoverBackground": "backgroundHover",
-      "inactiveColoredFileBackground": "background"
+      "inactiveColoredFileBackground": "#00000000"
     },
 
     "DefaultTabs": {
@@ -261,7 +261,8 @@
       "hoverBackground": "backgroundHover",
       "hoverBorderColor": "backgroundHover",
       "pressedBackground": "backgroundSelected",
-      "pressedBorderColor": "backgroundSelected"
+      "pressedBorderColor": "backgroundSelected",
+      "borderColor": "#00000000"
     },
 
     "SegmentedButton": {
